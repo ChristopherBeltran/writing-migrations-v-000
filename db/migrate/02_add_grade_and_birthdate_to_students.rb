@@ -1,1 +1,4 @@
-class AddGrade < 
+class AddGrade < ActiveRecord::Migration[5.1]
+  
+  def change
+    
