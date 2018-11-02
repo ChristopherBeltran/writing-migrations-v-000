@@ -9,5 +9,6 @@ SQL
 ActiveRecord::Base.connection.execute(sql)
 
 def change
-  
+  create_table :students |t|
+  t.name :string 
 end
